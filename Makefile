@@ -9,6 +9,9 @@ format:
 	black *.py
 
 run:
+	python main.py
+
+run-uvicorn:
 	uvicorn main:app --reload
 
 killweb:
